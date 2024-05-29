@@ -1,5 +1,5 @@
 #This Java program prints a right-hand pyramid of '$' characters and a left-hand pyramid of '*' characters.
-public class Task_01_02 {
+public class PrintingPyramids {
     public static void main(String[] args) {
           int k=5;
         System.out.println("Right hand Pyramid");
