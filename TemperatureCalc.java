@@ -1,3 +1,4 @@
+#This Java program converts temperatures between Celsius, Kelvin, and Fahrenheit based on user input.
 import java.util.Scanner;
 
 public class TemperatureCalc{
