@@ -13,7 +13,6 @@ public class BooleanCheck {
         boolean c = scanner.nextBoolean();
         System.out.print("Enter 4th bool value for d (true/false): ");
         boolean d = scanner.nextBoolean();
-
         int entry = 0;
         if (a) entry++;
         if (b) entry++;
