@@ -2,7 +2,7 @@
  at least two of them are true; otherwise, it prints "Goodbye".*/
 import java.util.Scanner;
 
-public class Task_002 {
+public class BooleanCheck {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter 1st bool value(true/false): ");
