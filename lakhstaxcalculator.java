@@ -1,6 +1,6 @@
-#This Java program calculates tax based on income input in lakhs and prints the calculated tax amount.
+/*This Java program calculates tax based on income input in lakhs and prints the calculated tax amount.*/
 import java.util.Scanner;
-public interface Set_04_Q3 {
+public class lakhstaxcalculator  {
     public static void main(String[] args){
         System.out.println("Tax Calculator !");
         Scanner sca= new Scanner(System.in);
