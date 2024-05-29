@@ -1,4 +1,6 @@
- import java.util.Scanner;
+/*This Java program reads four boolean values from the user and prints "Hello" if
+ at least two of them are true; otherwise, it prints "Goodbye".*/
+import java.util.Scanner;
 
 public class Task_002 {
     public static void main(String[] args) {
