@@ -1,5 +1,4 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+#This Java program prints a right-hand pyramid of '$' characters and a left-hand pyramid of '*' characters.
 public class Task_01_02 {
     public static void main(String[] args) {
           int k=5;
