@@ -1,6 +1,6 @@
 /*This Java program prompts the user to enter a number and prints all the numbers from 1 to that number using a for loop.*/
 import java.util.Scanner;
- public class Java_loop {
+ public class NumberSequence {
     public static void main(String[] args){
        Scanner sca= new Scanner(System.in);
        System.out.print("Enter a number: ");
