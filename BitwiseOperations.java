@@ -1,5 +1,6 @@
+/*This Java program takes two numbers as input and performs bitwise AND, OR, XOR, and NOT operations on them.*/
 import java.util.Scanner;
-public class chalengeOnBitwise {
+public class BitwiseOperations {
     public static void main(String[] args) {
         Scanner tool= new Scanner(System.in);
         System.out.print("Enter the first number: ");
