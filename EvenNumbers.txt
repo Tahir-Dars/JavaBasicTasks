@@ -1,6 +1,6 @@
 /*This Java program prompts the user to enter a number and prints the first 'n' even numbers using a for loop.*?
 import java.util.Scanner;
-public class ForLoop{
+public class EvenNumbers{
     public static void main(String[] args){
        // Quick Quiz 1: Write a program to print first n odd numbers using a for loop.
         System.out.println("Hello World");
