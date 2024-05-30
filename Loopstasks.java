@@ -1,10 +1,12 @@
-import javax.sound.sampled.ReverbType;
-import java.sql.SQLOutput;
+/*This collection of blocks of code contains tasks involving loops.
+each challenge is each diffrent tasks , uncomment the block and use the code */
 import java.util.Scanner;
-public class pg28_39 {
+public class Loopstasks {
     public static void main(String[] args) {
         Scanner ta=new Scanner(System.in);
-        // challenge 0028
+        
+        /*challenge A: program to generate the multiplication table for a given number up to a specified limit.*/
+        
 //        System.out.print("Write a number for making its Table: ");
 //        int p=ta.nextInt();
 //        System.out.print(" till How much: ");
@@ -12,7 +14,9 @@ public class pg28_39 {
 //        for(int i=1; i<=k;i++){
 //            System.out.println(p+" X "+i+" = "+(p*i));
 //        }
-       //chqallenge 0029
+        
+       /*challenge B: program to calculate the sum of all odd numbers between 1 and a specified input number.*/
+        
 //        System.out.println("A program to sum all odd numbers between 1 and specified imput number ");
 //        System.out.print("Enter a number: ");
 //        int k=ta.nextInt();
@@ -23,23 +27,29 @@ public class pg28_39 {
 //            }
 //        }
 //        System.out.print(oddSum);
-        //challenge 0030
+         /*challenge C: A program to calculate the factorial of a given number.*/
+        
 //        System.out.print("Enter a number to find factorial of: ");
 //        int numb= ta.nextInt();
 //        System.out.println("The Factorial of "+numb+"  is : "+factorial(numb));
-        //challenge 0031
-//        System.out.println("A Program to calculate the sum of digits in an integer ");
-//        System.out.print("Enter a number: ");
-//        int Entry=ta.nextInt();
-//        int length= (int) Math.log10(Entry)+1;
-//        int digiSum=0;
-//        for(int i=1;i<=length;i++){
-//            digiSum+=Entry%10;
-//            Entry=Entry/10;
-//        }
-//        System.out.println(" The Sum is: "+ digiSum);
-      // challenge 0032
-//        System.out.println("Enter two numbers for finding LCM");
+        // must uncomment the function implemented at last 
+        
+              /*challenge D: program to calculate the sum of digits in a given integer.*/
+        
+         //System.out.println("A Program to calculate the sum of digits in an integer ");
+        // System.out.print("Enter a number: ");
+        // long Entry=ta.nextLong();
+        // long length= (long) Math.log10(Entry)+1;
+        // long digiSum=0;
+        // for(int i=1;i<=length;i++){
+        //     digiSum+=Entry%10;
+        //     Entry=Entry/10;
+        // }
+        // System.out.println(" The Sum is: "+ digiSum);
+        
+     /*challenge E: program to find the highest common factor (HCF) of two given numbers.*/
+        
+//        System.out.println("Enter two numbers for finding HCF");
 //        int HCF=1;
 //        int max;
 //        System.out.print("Number 001: ");
@@ -50,7 +60,9 @@ public class pg28_39 {
 //        else {max=a;}
 //        for(int i=1;i<=max;i++) {if (a % i == 0 && b % i == 0) {HCF = i;}}
 //        System.out.println("THE HCF OF "+a+" and "+b+" is :"+HCF);
-        //challenge 0033
+        
+        /*challenge F: program to find the least common multiple (LCM) of two given numbers.*/
+        
 //        System.out.println("Enter two numbers for finding LCM");
 //        System.out.print("Number 001: ");
 //        int one1= ta.nextInt();
@@ -64,7 +76,9 @@ public class pg28_39 {
 //                 return;
 //           }
 //        }
-        //challenge 0034
+        
+       /*challenge G: A program to check if a given number is prime or not.*/
+        
 //        System.out.print("Enter a number to chack if prime:  ");
 //        int primeornot= ta.nextInt();
 //        for(int i=2;i<primeornot;i++){
@@ -77,14 +91,18 @@ public class pg28_39 {
 //                return;
 //            }
 //        }
-        //cahllenge 0035 code on the copy
-
-        System.out.print("Enter a number: ");
-        int number=ta.nextInt();
-        for (int i=1;i<=lengthOf(number))
-
-
+        
 
     }
+//     public static int factorial(int n) {
+//         if (n == 0 || n == 1) {
+//             return 1;
+//         }
+//         int result = 1;
+//         for (int i = 2; i <= n; i++) {
+//             result *= i;
+//         }
+//         return result;
+//     }
 
 }
