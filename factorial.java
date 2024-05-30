@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class MyArray {
+public class factorial{
     public static void main(String[] args) {
         int factorial=1;
         Scanner sc = new Scanner(System.in);
