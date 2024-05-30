@@ -1,3 +1,8 @@
+/*This Java program simulates a theme park management system, featuring user classes for visitors and payment
+managers. It enables functionalities such as user registration, attraction booking, total bill calculation, and
+data persistence via file I/O. The main class, JoyfulAdventuresPark, offers a user-friendly menu interface for tasks
+like registration, login (future enhancement), and program termination. Leveraging object-oriented principles and
+error-handling mechanisms, the system ensures robustness and data integrity.*/
 import java.util.ArrayList;
 import java.util.Scanner;
 import java.io.File;
