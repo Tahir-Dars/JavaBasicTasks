@@ -1,6 +1,6 @@
 /*This Java program prompts the user to enter a number and then prints a countdown from that number to 1 in reverse order.*/
 import java.util.Scanner;
-class HelloWorld {
+ public class ReverseCount {
     public static void main(String[] args) {
       Scanner Sc= new Scanner(System.in);
         System.out.print("Enter the number you want reverse: ");
