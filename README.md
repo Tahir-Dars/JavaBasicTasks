@@ -1,2 +1,2 @@
 # JavaTasks
-This repository contains code for various simple tasks inspired by ideas from Google, YouTube, and ChatGPT. All the code has been independently developed by me. I hope you find it highly beneficial and make the most out of it.
+This repository contains basic tasks and a few pure OOP tasks. The code for these tasks is solely made by me. The code includes comments explaining the details. It is comprehensive. The files have undergone multiple reviews by me, but if you find any mistakes, please pardon them and consider it as part of your assignment.
