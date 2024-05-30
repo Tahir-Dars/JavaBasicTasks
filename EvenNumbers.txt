@@ -1,0 +1,19 @@
+/*This Java program prompts the user to enter a number and prints the first 'n' even numbers using a for loop.*?
+import java.util.Scanner;
+public class ForLoop{
+    public static void main(String[] args){
+       // Quick Quiz 1: Write a program to print first n odd numbers using a for loop.
+        System.out.println("Hello World");
+        Scanner sc= new Scanner(System.in);
+        System.out.println("Enter the number of Even Numbers you want ");
+        int k= sc.nextInt();
+        int b=0;
+        for(int i=1; i<=1000;i++){
+            if(i%2==0){
+                b++;
+                System.out.println(i);
+            }
+            if(b==k) break;
+        }
+    }
+}
