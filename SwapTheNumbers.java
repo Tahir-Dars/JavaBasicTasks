@@ -1,4 +1,4 @@
-# This Java program swaps the values of two integers without using a temporary variable
+// This Java program swaps the values of two integers without using a temporary variable
 import java.util.Scanner;
 public class SwapTheNumbers {
     public static void main(String[] args){
